@@ -1,3 +1,5 @@
+```{r}
+
 library(tuneR)
 library(audio)
 christmas_file <- tempfile()
@@ -9,3 +11,4 @@ a <- audio::play(mywav)
 pause(a)
 resume(a)
 
+```
